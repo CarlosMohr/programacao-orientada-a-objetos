@@ -8,6 +8,6 @@ public class Aluno {
 
     void apresentarDados() {
         System.out.println("Nome do aluno: " + nome + "\nIdade do aluno: " + idade + "\nCurso do aluno: " + curso);
-    }P
+    }
     
 }
