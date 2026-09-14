@@ -86,6 +86,7 @@ public class ContaBancaria {
         for (Double movimentacao : movimentacoes) {
             System.out.println(movimentacao);
         }
+        System.out.println("Saldo atual: " + saldo);
     }
 
     Double totalDepositado() {
