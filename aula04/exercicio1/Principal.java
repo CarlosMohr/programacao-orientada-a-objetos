@@ -3,6 +3,7 @@ package aula04.exercicio1;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class Principal {
 
     public static void main(String[] args) {

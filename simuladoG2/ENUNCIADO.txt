@@ -1,0 +1,82 @@
+SIMULADO G2 - PROGRAMAÇÃO ORIENTADA A OBJETOS
+Tempo sugerido: 1h30 | Sem internet, sem IA, sem consulta
+Pode fazer à mão ou no computador (em Java)
+
+============================================================
+CENÁRIO: PetCare, a clínica veterinária do bairro
+============================================================
+
+A clínica veterinária PetCare precisa de um sistema para organizar
+os atendimentos do dia.
+
+Os tutores (donos dos animais) são cadastrados com nome e telefone.
+Cada animal tem nome, espécie (cachorro, gato...) e pertence a um
+tutor.
+
+A clínica oferece diferentes tipos de serviço. Todo serviço tem nome,
+preço base e duração em minutos. Existem quatro tipos:
+
+  Consulta: o valor é o preço base puro.
+
+  Vacina: o custo da dose da vacina é somado ao preço base.
+
+  Banho e Tosa: o preço base com 10% de desconto (promoção fixa).
+
+  Hospedagem: o preço base é o valor de uma diária, e o valor final
+  é a diária multiplicada pelo número de diárias que o animal fica.
+
+Cada atendimento é de um animal, tem uma data e uma lista de
+serviços na ordem em que foram solicitados. O sistema deve calcular
+o valor total de cada atendimento e a duração total, em minutos,
+dos serviços de cada atendimento.
+
+Os atendimentos do dia ficam registrados em uma agenda única. A
+agenda deve informar o faturamento total do dia.
+
+Ao final, o sistema deve exibir um relatório com, para cada
+atendimento: o nome do animal, o nome do tutor, cada serviço com
+seu valor, o total e a duração. No fim do relatório, o faturamento
+do dia.
+
+============================================================
+O QUE DEVE SER ENTREGUE
+============================================================
+
+1. O código Java completo do sistema, organizado em pacotes.
+
+2. O programa deve aplicar os 4 pilares da orientação a objetos
+   (abstração, encapsulamento, herança e polimorfismo) e os 5
+   princípios SOLID.
+
+3. Uma classe Principal com o main que monte este cenário de teste:
+
+   - Tutora Marina, telefone (55) 98888-1111, com o cachorro Thor.
+   - Tutor João, telefone (55) 98888-2222, com a gata Mia.
+
+   - Serviços:
+       Consulta geral ......... preço base 120,00 | 30 min
+       Vacina V10 ............. preço base 40,00  | 10 min | dose 80,00
+       Banho e tosa ........... preço base 70,00  | 60 min
+       Hospedagem ............. diária 90,00      | 15 min | 3 diárias
+
+   - Atendimento do Thor: consulta, vacina e banho e tosa.
+   - Atendimento da Mia: hospedagem e consulta.
+
+   Depois, gerar o relatório.
+
+4. PERGUNTA (responder em comentário no fim do Principal):
+   A clínica vai começar a oferecer o serviço Microchip, cujo valor
+   é o preço base mais R$ 30,00 do chip. Quais arquivos você cria e
+   quais arquivos existentes você precisa alterar? Qual princípio
+   SOLID isso demonstra?
+
+============================================================
+CONFERÊNCIA (para você checar no final, não é dica de código)
+============================================================
+
+  Total do atendimento do Thor ... R$ 303,00 | 100 min
+  Total do atendimento da Mia .... R$ 390,00 |  45 min
+  Faturamento do dia ............. R$ 693,00
+
+Quando terminar, abra a pasta "gabarito" e compare, ou mande o
+seu código para o Claude corrigir.
